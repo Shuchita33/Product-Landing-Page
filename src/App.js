@@ -5,6 +5,7 @@ import { Brand } from './components/brand/brand';
 import { Info } from './components/info/info';
 import { Featured } from './components/featured/featured';
 import { Collections } from './components/collections/collections';
+import { Footer } from './components/footer/footer';
 function App() {
   return (
     <div className='App'>
@@ -16,6 +17,7 @@ function App() {
         <Featured></Featured>
         <Collections></Collections>
       </div>
+      <Footer></Footer>
       
     </div>
   );
