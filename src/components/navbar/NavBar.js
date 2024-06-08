@@ -1,10 +1,6 @@
 import '../navbar/navbar.css';
 import { logo } from '../../assets';
 export const NavBar=()=>{
-    const activeStyle = ({ isActive }) => ({
-        color: isActive ? "var(--primary-color)" : "black",
-        textDecoration: "none",
-      });
     return(
         <>
       <div className="top-bar">
